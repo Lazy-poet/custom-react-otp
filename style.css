@@ -1,0 +1,16 @@
+body {
+  padding: 30px;
+}
+h1,
+p {
+  font-family: Lato;
+}
+
+button {
+  cursor: 'pointer !important';
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: 'not-allowed';
+}
